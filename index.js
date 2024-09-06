@@ -86,8 +86,24 @@ for (let key in user) {
 const salaries = [100, 101, 102, 103];
 const students = ["Aruzhan", "Aliya", "Akmaral"];
 
-console.log(salaries[4]);
-console.log(students.length);
+// console.log(salaries[4]);
+// console.log(students.length);
 
-const teachers = ["Samat", 17, true];
+// const teachers = ["Samat", 17, true];
+// console.log(teachers);
+
+//typeof
+// console.log(typeof teachers);
+
+const teachers = [
+  {
+    name: "Symbat",
+    surname: "Zhandos",
+  },
+  {
+    name: "Baha",
+    surname: "Samat",
+  },
+];
+
 console.log(teachers);
